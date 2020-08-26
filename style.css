@@ -1,0 +1,155 @@
+body {
+    font-size: 16px;
+    line-height: 1;
+    align-content: center;
+    margin: 40px;
+    color: lightslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    font-size: 30px;
+    font-weight: normal;
+    color: #BBDEFB;
+    background-color: #0D47A1 ;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.align-right {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container-forecast {
+    width: 100%;
+    float: right;
+    border-radius: 6px;
+    max-height: 150px;
+}
+
+section {
+    overflow: auto;
+    clear: both;
+    width: 100%;
+  }
+
+
+#sideNavigation {
+    height: 100%; 
+    position: relative;
+    left: 0;
+    background-color: #BBDEFB;
+    height: auto;
+    min-height: 150px;
+    border-radius: 6px;
+    color: slategray;
+    padding-bottom: 20px;
+}
+
+#input {
+    color: slategray;
+}
+
+h1 {
+    font-size: 20px;
+    color: #0D47A1;
+    text-align: left;
+    padding: 20px 0px 10px 5px;
+}
+
+#icon-button {
+    background-color: #0D47A1;
+    cursor: pointer;
+}
+
+.fa {
+    color: white;
+}
+
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    color: slategray;
+}
+
+ul {
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 20px;
+    color: slategray;
+}
+
+
+.uvi-btn {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #BBDEFB;
+}
+
+.low {
+    background-color: #689F38;
+    color: white;
+}
+
+.moderate {
+    background-color: #FFA000;
+    color: white;
+}
+
+.high {
+    background-color: #E64A19;
+    color: white;
+}
+
+.very-high {
+    background-color: #D32F2F;
+    color: white;
+}
+
+.extreme {
+    background-color: #7B1FA2;
+    color: white;
+}
+
+
+.card-body {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    text-align: center;
+    background-color: #0D47A1;
+    color: #BBDEFB;
+    border: none;
+    border-radius: 6px;
+    width: min-content;
+}
+
+.card-header {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.list-group-item {
+    color: slategray;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .wrapper { 
+        margin: 0 20px;
+    }
+}
